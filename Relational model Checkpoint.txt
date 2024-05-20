@@ -1,0 +1,18 @@
+hotel ( hotel_id , hotel name ,#Id_employee, #room_Id)
+        ________
+
+Type ( type_id , type_name, #hotel_id)
+       _______ 	
+
+Room (room_id , flore)
+     ________
+
+Employee ( employee_id , employee_name ,Speciality,#hotel_id #derection_id)
+           ___________
+
+
+Category (category_id, category_name, price , bed_nember #room_id)
+          ___________ 
+
+
+ 
